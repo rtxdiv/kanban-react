@@ -1,0 +1,27 @@
+-- DEPENDENCIES
+react
+    компоненты, состояния, хуки
+react-dom
+    интерграция с DOM
+
+-- DEV DEPENDENCIES
+@types/react
+    ts типы для react
+@types/react-dom
+    ts типы для react-dom
+@vitejs/plugin-react
+    плагин react для vite
+typescript
+    билдер, языковой сервер, скрипты
+vite
+    билдер, dev-сервер
+
+-- SCRIPTS
+dev: vite dev
+    запустить dev сервер с HMR
+build: tsc --noEmit && vite build
+    tsc только проверяет типы, vite build всё собирает
+preview: vite preview
+    запустить сервер из собранного
+
+

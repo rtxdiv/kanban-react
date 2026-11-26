@@ -1,0 +1,4 @@
+.container {
+  width: clamp(400px, 90vw, 1000px);
+  background: rgb(230, 230, 230);
+}
